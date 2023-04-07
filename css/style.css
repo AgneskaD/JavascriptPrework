@@ -1,0 +1,85 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 16px;
+  color: beige;
+  background: #ffc93c;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background: #155263;
+  padding: 25px;
+}
+
+.color1 {
+  color: #769353;
+}
+
+.color2 {
+  color: #65589c;
+}
+
+.color3 {
+  color: orangered;
+}
+
+#buttons {
+  text-align: center;
+  margin-top: 75px;
+}
+
+#buttons button {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  font-size: 26px;
+  transition: all 0.6s;
+}
+
+#buttons button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 25px 8px #000000;
+  cursor: pointer;
+}
+
+#button-rock {
+  margin-right: 40px;
+  background: #769353;
+  color: #ffffff;
+}
+
+#button-paper {
+  margin-right: 40px;
+  background: #65589c;
+  color: #ffffff;
+}
+
+#button-scissors {
+  background: orangered;
+  color: #ffffff;
+}
+
+#messages {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 40px;
+  color: #ffffff;
+  border: 2px #3d655d;
+  background: #36846b;
+  width: 540px;
+  height: 150px;
+  border-radius: 10px;
+  line-height: 75px;
+}
+/*# sourceMappingURL=style.css.map */
